@@ -37,7 +37,7 @@
 
       const cityName = document.getElementById("city").value;
       const apiKey = "d93c7e920e92350fdc6c18ae2b6cebed"; 
-      const apiUrl = https://api.openweathermap.org/data/2.5/weather?q=${cityName},IN&appid=${apiKey}&units=metric;
+      const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName},IN&appid=${apiKey}&units=metric`;
 
       try {
         const response = await fetch(apiUrl);
